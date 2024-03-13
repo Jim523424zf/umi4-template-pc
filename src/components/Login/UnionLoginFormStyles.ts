@@ -12,6 +12,7 @@ export default createStyles(({ token, css }) => {
 
   /** 弹性盒 */
   const commonDisplayFlexStyles = css`
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,8 +78,8 @@ export default createStyles(({ token, css }) => {
       font-size: ${token.fontSizeXL}px;
     `,
     container_bottom: css`
-      position: relative;
-      bottom: -240px;
+      position: absolute;
+      bottom: 10px;
     `,
   };
 });
