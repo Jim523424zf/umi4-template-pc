@@ -1,0 +1,45 @@
+{
+  "editor.formatOnSave": true,
+  "i18n-ally.keystyle": "flat",
+  "i18n-ally.autoDetection": true,
+  "i18n-ally.localesPaths": ["src/locales/"],
+  "i18n-ally.sourceLanguage": "zh_CN",
+  "i18n-ally.displayLanguage": "zh_CN",
+  "i18n-ally.localeCountryMap": {
+    "zh": "zh_CN",
+    "en": "en_US"
+  },
+  "i18n-ally.regex.usageMatch": [
+    "id[=: ]+['\"`]({key})['\"`]",
+    "[^\\w\\d]formatMessageById\\(['\"`]({key})['\"`]",
+    "[^\\w\\d]t\\(['\"`]({key})['\"`]"
+  ],
+  "commentTranslate.source": "Baidu",
+  "i18n-ally.translate.engines": ["baidu"],
+  "i18n-ally.translate.baidu.appid": "20231219001915269",
+  "i18n-ally.translate.baidu.apiSecret": "txwF9aDa75moEZE0v_kc",
+  "i18n-ally.enabledFrameworks": ["ngx-translate"],
+  "cSpell.words": [
+    "APAC",
+    "Applicat",
+    "blujay",
+    "Confilict",
+    "exceljs",
+    "Fontmin",
+    "iban",
+    "IIFE",
+    "incoterms",
+    "INDEXEDDB",
+    "inversify",
+    "localforage",
+    "loglevel",
+    "medalsoft",
+    "Msal",
+    "openapi",
+    "opentype",
+    "packagejson",
+    "streamsaver",
+    "valtio",
+    "Wecom"
+  ]
+}

@@ -1,0 +1,101 @@
+/* 定义滚动条的宽度和高度 */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* 定义滚动条的轨道 */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* 定义滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* 鼠标悬停在滚动条上时的样式 */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* 定义滚动条角落的样式 */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
+.loading-page-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  // /* 解决图片缩放失真 */
+  // image-rendering: -webkit-optimize-contrast;
+  // /* Safari/Chrome */
+  // image-rendering: -moz-crisp-edges;
+  // /* Firefox */
+  // image-rendering: crisp-edges;
+  // /* IE */
+  // -ms-interpolation-mode: nearest-neighbor;
+  /* 解决chrome图片缩放失真的问题 */
+  backface-visibility: hidden;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+// 定制样式
+// .ant-pro-layout {
+//   .ant-pro-sider.ant-pro-sider-fixed-mix {
+//     // transform: scale(0.968);
+//     // transform-origin: 0 100% 0;
+//     background: #fff;
+//     overflow: hidden;
+
+//     .ant-menu-inline .ant-menu-item,
+//     .ant-menu-vertical .ant-menu-item,
+//     .ant-menu-inline .ant-menu-submenu-title,
+//     .ant-menu-vertical .ant-menu-submenu-title {
+//       font-size: 18px;
+//       color: #333333;
+//       &:hover {
+//         color: #4faaff;
+//       }
+//     }
+//     .ant-menu.ant-menu-root.ant-pro-sider-menu {
+//       > .ant-menu-item,
+//       > .ant-menu-submenu {
+//         margin-top: 20px;
+//         > .ant-menu-sub {
+//           .ant-menu-item,
+//           .ant-menu-submenu-title {
+//             font-size: 16px;
+//           }
+//         }
+//       }
+
+//       .ant-menu-item.ant-menu-item-selected {
+//         color: #333333;
+//         background: rgba(255, 255, 255, 0.1);
+//         border-radius: 6px;
+//       }
+//     }
+//   }
+//   .ant-layout-header.ant-pro-layout-header {
+//     background-color: #2f80ed;
+//   }
+//   .ant-pro-layout-bg-list {
+//     background-size: cover;
+//   }
+//   .ant-pro-page-container-children-container {
+//     padding-block: 30px;
+//     padding-inline: 30px;
+//     background-color: #f6f6f6;
+//   }
+// }

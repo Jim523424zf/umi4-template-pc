@@ -18,14 +18,6 @@
 
 ## 开发流程
 
-### 开发仓库分支
-
-前端：<http://192.168.20.9:10081/jci/WT202306038/pdpweb>
-
-统一从master创建自己的开发分支，分支命名规则暂未限制
-
-后端：<http://192.168.20.9:10081/jci/WT202306038/pdpapi>
-
 ### 项目包管理工具 pnpm
 
 没安装pnpm的允许安装命令`npm i -g pnpm`
@@ -68,18 +60,6 @@ export default defineConfig({
     ]
 })
 
-```
-
-### 接口请求
-
-后端文档地址：<https://pdp-webapp.chinacloudsites.cn/swagger/index.html?urls.primaryName=JCIPDP.Service>
-
-目录：src/services
-
-接口请求service代码生成
-
-- 运行命令生成接口请求代码：`pnpm openapi`
-- 接口调用
 
 ```ts
 import jciService from "@/services/jciService";
@@ -269,4 +249,3 @@ index.js:1 Warning: Invalid hook call. Hooks can only be called inside of the bo
 ```
 
 解决方案：重新启动项目
-
